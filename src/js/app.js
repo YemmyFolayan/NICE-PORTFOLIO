@@ -13,4 +13,14 @@ function handleReview(e) {
   });
 }
 
+
 people.forEach(person => person.addEventListener("click", handleReview));
+
+function navBarFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
