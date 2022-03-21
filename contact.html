@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./src/css/main.css">
+  <link rel="stylesheet" href="./src/css/app.css">
+  <script src="https://kit.fontawesome.com/c8305524b4.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Michael Folayan | Portfolio</title>
+</head>
+
+<body>
+
+  <!-- Header Area  -->
+  <header>
+    <div class="topnav wrap padded" id="myTopnav">
+      <a href="/index.html" class="active">Home</a>
+      <a href="/projects.html">Project</a>
+      <a href="/blog.html">Blog</a>
+      <a href="/contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="navBarFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="header__inner wrap padded">
+      <h1 class="branding">Michael Folayan</h1>
+      <h3 class="tags">Freelancer, Software Developer, Designer, Thinker, Financial Tech Specialist, Entrepreneurer </h3>
+    </div>
+  </header>
+
+
+  <!-- Contact Section  -->
+
+  <section class="contact">
+    <div class="contact__inner wrap padded">
+      <h4 class="section__heading">
+        <span>Let's Work on Your Idea!</span>
+      </h4>
+
+      <div class="contact__wrap">
+        <div class="contact__details">
+          <div class="email">
+            <h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path
+                  d="M20,4H4C2.896,4,2,4.896,2,6v12c0,1.104,0.896,2,2,2h16c1.104,0,2-0.896,2-2V6C22,4.896,21.104,4,20,4z M20,8.7l-8,5.334 L4,8.7V6.297l8,5.333l8-5.333V8.7z" />
+              </svg> Email</h3>
+            <h4>michaelfolayan@outlook.com</h4>
+          </div>
+          <div class="cell">
+            <h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path
+                  d="M20.487,17.14l-4.065-3.696c-0.399-0.363-1.015-0.344-1.391,0.043l-2.393,2.461c-0.576-0.11-1.734-0.471-2.926-1.66	c-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394c0.388-0.376,0.406-0.991,0.043-1.391L6.859,3.513	c-0.363-0.401-0.98-0.439-1.391-0.087l-2.17,1.861C3.125,5.461,3.022,5.691,3.008,5.936c-0.015,0.25-0.301,6.172,4.291,10.766	C11.305,20.707,16.323,21,17.705,21c0.202,0,0.326-0.006,0.359-0.008c0.245-0.014,0.475-0.117,0.648-0.291l1.86-2.171	C20.926,18.119,20.887,17.503,20.487,17.14z" />
+              </svg> Phone</h3>
+            <h4>+2348103817187</h4>
+          </div>
+          <!--<div class="address">
+            <h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path
+                  d="M12,2C7.589,2,4,5.589,4,9.995C3.971,16.44,11.696,21.784,12,22c0,0,8.029-5.56,8-12C20,5.589,16.411,2,12,2z M12,14 c-2.21,0-4-1.79-4-4s1.79-4,4-4s4,1.79,4,4S14.21,14,12,14z" />
+              </svg> Address</h3>
+            <address>
+              PMB 705, Federal Univesity of Technology of technology Akure.
+            </address>
+          </div>-->
+          <ul class="social__list">
+                <li>
+              <a class="fa fa-whatsapp" style="color:green" href="https://wa.me/2348103817187"></a>
+            </li>
+       
+          
+             <li>
+              <a class="fa fa-twitter-square" style="color:#00acee" href="https://twitter.com/softfolayanyemi"></a>
+            </li>
+          
+          
+             <li>
+              <a class="fa fa-instagram" style="color:#3f729b" href="https://www.instagram.com/folla_yemi/"></a>
+            </li>
+       
+          
+          
+            <li>
+              <a class="fa-brands fa-github" style="color:black" href="https://github.com/yemmyFolayan"></a>
+            </li>
+       
+          
+          <li>  
+              <a class="fa fa-youtube-square" style="color:red" href="https://www.youtube.com/channel/UCMcHO99n8_YxRnG1UguaDJw"></a>
+            </li>
+
+            
+            <li>  
+              <a class="fa-brands fa-linkedin" style="color:#0e76a8" href="https://www.linkedin.com/in/folayan-yemi"></a>
+            </li>
+
+
+          </ul>
+        </div>
+        <div class="contact__form">
+          
+          <form id="javascript_form">
+            <p>
+              <input type="email" name="subject" class="input name" placeholder="Email Address *" required/>
+            </p>
+           
+            <p>
+              <textarea name="text" class="input" cols="30" rows="10" placeholder="Write Your Message (...Include your Name and Contact details, Thanks!)"></textarea>
+            </p>
+            <p>
+              <input type="submit" id="js_send" value="Send" class="input submit" />
+            </p>
+          </form>
+
+                    
+
+          <script>
+
+              //update this with your js_form selector
+              var form_id_js = "javascript_form";
+
+              var data_js = {
+                  "access_token": "a8uaqlfbojpib1m64sy1lnkd"
+              };
+
+              function js_onSuccess() {
+                  // remove this to avoid redirect
+                  window.location = window.location.pathname + "?message=Email+Successfully+Sent%21&isError=0";
+              }
+
+              function js_onError(error) {
+                  // remove this to avoid redirect
+                  window.location = window.location.pathname + "?message=Email+could+not+be+sent.&isError=1";
+              }
+
+              var sendButton = document.getElementById("js_send");
+
+              function js_send() {
+                  sendButton.value='Sending…';
+                  sendButton.disabled=true;
+                  var request = new XMLHttpRequest();
+                  request.onreadystatechange = function() {
+                      if (request.readyState == 4 && request.status == 200) {
+                          js_onSuccess();
+                      } else
+                      if(request.readyState == 4) {
+                          js_onError(request.response);
+                      }
+                  };
+
+                  var subject = document.querySelector("#" + form_id_js + " [name='subject']").value;
+                              
+                      
+                  var message = document.querySelector("#" + form_id_js + " [name='text']").value;
+
+             
+
+                  data_js['subject'] = subject;
+                  data_js['text'] = message;
+                
+                              
+
+
+
+
+                  var params = toParams(data_js);
+
+                  request.open("POST", "https://postmail.invotes.com/send", true);
+                  request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+                  request.send(params);
+
+                  return false;
+              }
+
+              sendButton.onclick = js_send;
+
+              function toParams(data_js) {
+                  var form_data = [];
+                  for ( var key in data_js ) {
+                      form_data.push(encodeURIComponent(key) + "=" + encodeURIComponent(data_js[key]));
+                  }
+
+                  return form_data.join("&");
+              }
+
+              var js_form = document.getElementById(form_id_js);
+              js_form.addEventListener("submit", function (e) {
+                  e.preventDefault();
+              });
+          </script>
+    
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer  -->
+
+  <footer>
+  Designed by <a href="https://github.com/YemmyFolayan"><b> Michael Yemi Folayan </b></a>.
+
+  </footer>
+
+  <script src="./src/js/app.js"></script>
+</body>
+
+</html>
