@@ -21,14 +21,14 @@ body {
   }
   
   .topnav a:hover {
-    background-color: #ddd;
-    color: #3498db;
+    /* background-color: #ddd;
+    color: #3498db; */
     border-radius: 50%;
   }
   
   .topnav a.active {
-    background-color: #ddd;
-    color: #3498db;
+    background-color: none;
+    color: #f2f2f2;
     border-radius: 50%;
   }
   
