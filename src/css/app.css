@@ -9,6 +9,10 @@ body {
     background-color: none;
     
   }
+
+  .about__wrap {
+    flex-basis: 100% !important;
+}
   
   .topnav a {
     float: left;
